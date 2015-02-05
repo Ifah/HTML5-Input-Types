@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Input Types</title>
+	<style>
+		div{
+			height: 40px;
+			margin: 10px;
+			background: cornflowerblue;
+		}
+	</style>
+</head>
+<body>
+	<form action="all.html" method="get">
+
+		<div>
+			<label>
+				'Text' type
+				<input type="text" autocomplete="off">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Search' type
+				<input type="search" autocomplete="off">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Email' type
+				<input type="email" autocomplete="off">
+			</label>
+			<label>
+				'Multiple Email' type
+				<input type="email" multiple autocomplete="off">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Url' type
+				<input type="url" autocomplete="off">
+			</label>
+				<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Tel' type
+				<input type="tel" autocomplete="off">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Number' type
+				<input type="number" min="1" max="10" value="1" step="1" autocomplete="off">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div style="height:120px;">
+			<label>
+				<p>'Range' type</p>
+				<p>How did you find the customer service?</p>
+				Very Bad <input type="range" name="question" min="1" max="100" value="50" step="1"> Very good
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Date' type
+				<input type="date">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Month' type
+				<input type="month">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Week' type
+				<input type="week">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Time' type
+				<input type="time" step="900">
+			</label>
+			<input type="submit">
+		</div>
+
+
+		<div>
+			<label>
+				'Color' type
+				<input type="color" name="color">
+			</label>
+			<input type="submit">
+		</div>
+
+	</form>
+</body>
+</html>
